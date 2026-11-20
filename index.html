@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahalya Swaminathan | Accounts Payable Executive | SAP P2P Specialist</title>
+<meta name="description" content="Ahalya Swaminathan – Accounts Payable Executive and SAP P2P Specialist experienced in SAP VIM, PO & Non-PO invoice processing, 2/3-way matching and VAT/KSeF compliance.">
+<meta property="og:title" content="Ahalya Swaminathan | Accounts Payable Executive | SAP P2P Specialist">
+<meta property="og:description" content="Precision in every invoice. Integrity in every payment.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0b2545; --blue:#1b6ebe; --sky:#5aa0dc; --gold:#c48c28;
+    --bg:#f4f9fe; --card:#ffffff; --line:#d6e6f5; --muted:#4a5f7a;
+    --shadow:0 10px 30px rgba(27,110,190,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,sans-serif;color:var(--navy);background:var(--bg);line-height:1.65}
+  a{color:var(--blue);text-decoration:none}
+  h1,h2,h3{font-family:Poppins,sans-serif;line-height:1.2}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:10;background:rgba(244,249,254,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-family:Poppins;font-weight:700;font-size:1.15rem;color:var(--navy)}
+  .logo span{color:var(--gold)}
+  nav ul{display:flex;gap:26px;list-style:none}
+  nav ul a{color:var(--muted);font-weight:500;font-size:.95rem}
+  nav ul a:hover{color:var(--blue)}
+
+  /* hero */
+  .hero{position:relative;overflow:hidden;padding:110px 0 100px;
+    background:radial-gradient(circle at 85% 10%,rgba(90,160,220,.30),transparent 45%),
+               radial-gradient(circle at 10% 90%,rgba(196,140,40,.12),transparent 40%),
+               linear-gradient(120deg,#eef6fd,#d4e8f8)}
+  .hero::before{content:"";position:absolute;inset:0;
+    background-image:radial-gradient(rgba(27,110,190,.18) 1.5px,transparent 1.5px);background-size:26px 26px;
+    mask-image:linear-gradient(90deg,#000 0%,transparent 45%);-webkit-mask-image:linear-gradient(90deg,#000 0%,transparent 45%)}
+  .hero .wrap{position:relative}
+  .eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold);font-weight:600;letter-spacing:.18em;font-size:.78rem;text-transform:uppercase}
+  .eyebrow::before{content:"";width:34px;height:3px;background:var(--gold)}
+  .hero h1{font-size:clamp(2.3rem,6vw,4rem);letter-spacing:.04em;margin:18px 0 10px}
+  .role{font-size:clamp(1.1rem,2.4vw,1.5rem);font-weight:500}
+  .role b{color:var(--blue);font-weight:600}
+  .role i{color:var(--gold);font-style:normal;margin:0 10px}
+  .hero p.lead{max-width:640px;color:var(--muted);margin:22px 0 32px;font-size:1.05rem}
+  .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{padding:12px 26px;border-radius:30px;font-weight:600;font-size:.95rem;transition:.2s}
+  .btn.primary{background:var(--navy);color:#fff}
+  .btn.primary:hover{background:var(--blue)}
+  .btn.ghost{border:1.5px solid var(--blue);color:var(--blue);background:#fff}
+  .btn.ghost:hover{background:var(--blue);color:#fff}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:-50px;position:relative}
+  .stat{background:var(--card);border-radius:16px;padding:24px;text-align:center;box-shadow:var(--shadow);border:1px solid var(--line)}
+  .stat strong{display:block;font-family:Poppins;font-size:1.9rem;color:var(--blue)}
+  .stat span{color:var(--muted);font-size:.9rem}
+
+  section{padding:80px 0}
+  .title{font-size:2rem;margin-bottom:8px}
+  .title + .sub{color:var(--muted);margin-bottom:36px}
+  .title::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--blue),var(--gold));margin-top:12px}
+
+  /* about */
+  .about{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start}
+  .about p{margin-bottom:14px;color:#22385a}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px;box-shadow:var(--shadow)}
+  .card h3{font-size:1.05rem;margin-bottom:14px}
+  .facts li{list-style:none;padding:8px 0;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:12px;font-size:.95rem}
+  .facts li:last-child{border:none}
+  .facts span{color:var(--muted)}
+
+  /* timeline */
+  .timeline{position:relative;margin-left:10px}
+  .timeline::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--line)}
+  .job{position:relative;padding-left:36px;margin-bottom:30px}
+  .job::before{content:"";position:absolute;left:-7px;top:8px;width:16px;height:16px;border-radius:50%;background:#fff;border:3px solid var(--blue)}
+  .job.current::before{background:var(--gold);border-color:var(--gold);box-shadow:0 0 0 5px rgba(196,140,40,.18)}
+  .job .card{padding:24px 26px}
+  .job-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;margin-bottom:4px}
+  .job h3{font-size:1.15rem;margin:0}
+  .date{font-size:.85rem;font-weight:600;color:var(--blue);background:#e8f2fc;padding:3px 12px;border-radius:20px;height:fit-content}
+  .company{color:var(--gold);font-weight:600;margin-bottom:12px}
+  .job ul{padding-left:18px;color:#22385a}
+  .job li{margin-bottom:6px}
+
+  /* skills */
+  .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .skills .card h3{display:flex;align-items:center;gap:10px}
+  .ico{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#e8f2fc;color:var(--blue);font-size:1rem}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:.85rem;padding:6px 14px;border-radius:20px;border:1px solid #b9d5ef;background:#f6fbff;font-weight:500}
+
+  /* p2p strip */
+  .flow{display:flex;justify-content:space-between;gap:10px;margin-top:34px;flex-wrap:wrap}
+  .step{flex:1;min-width:130px;text-align:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 10px;position:relative}
+  .step b{display:block;font-family:Poppins;color:var(--blue);font-size:1.25rem}
+  .step span{font-size:.85rem;color:var(--muted)}
+
+  /* education */
+  .edu{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .edu .card h3{font-size:1rem;margin-bottom:6px}
+  .edu .yr{color:var(--gold);font-weight:600;font-size:.85rem}
+  .edu p{color:var(--muted);font-size:.92rem}
+
+  /* contact */
+  .contact{background:linear-gradient(120deg,var(--navy),#14467a);color:#fff;border-radius:24px;padding:56px 40px;text-align:center}
+  .contact h2{font-size:2rem;margin-bottom:10px}
+  .contact p{color:#c7dcf2;margin-bottom:28px}
+  .contact .btn.primary{background:var(--gold)}
+  .contact .btn.primary:hover{background:#d9a03a}
+  .contact .btn.ghost{background:transparent;color:#fff;border-color:#fff}
+  .contact .btn.ghost:hover{background:#fff;color:var(--navy)}
+  .contact .btns{justify-content:center}
+  footer{text-align:center;color:var(--muted);font-size:.85rem;padding:30px 0 40px}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:.7s ease}
+  .reveal.show{opacity:1;transform:none}
+
+  @media (max-width:860px){
+    nav ul{display:none}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .about,.skills,.edu{grid-template-columns:1fr}
+    .hero{padding:80px 0 90px}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo">Ahalya<span>.</span></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">Precision in every invoice · Integrity in every payment</div>
+    <h1>AHALYA SWAMINATHAN</h1>
+    <div class="role">Accounts Payable Executive<i>|</i><b>SAP P2P Specialist</b></div>
+    <p class="lead">I keep the Procure-to-Pay cycle accurate, compliant and on time – from invoice intake and 2/3-way matching in SAP VIM to vendor reconciliations and month-end close.</p>
+    <div class="btns">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="#experience">View experience</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats reveal">
+    <div class="stat"><strong>99%+</strong><span>Processing accuracy</span></div>
+    <div class="stat"><strong>250+</strong><span>Invoices per day</span></div>
+    <div class="stat"><strong>SAP VIM</strong><span>End-to-end invoicing</span></div>
+    <div class="stat"><strong>4</strong><span>Languages spoken</span></div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap about">
+    <div class="reveal">
+      <h2 class="title">About Me</h2>
+      <p class="sub"></p>
+      <p>I'm an Accounts Payable Executive and SAP P2P Specialist, currently with <strong>Continuserve</strong>, with hands-on experience in end-to-end invoice processing on SAP ECC and SAP VIM.</p>
+      <p>I've processed high-volume XML, PO and Non-PO invoices for the <strong>Poland market</strong> – including complex, high-line-item invoices – while staying compliant with Polish VAT rules, JPK_V7 audit files and KSeF e-invoicing mandates.</p>
+      <p>I enjoy solving invoice discrepancies, working with vendors and stakeholders, and finding small process improvements that reduce errors and keep payments on time.</p>
+    </div>
+    <div class="card reveal">
+      <h3>Quick facts</h3>
+      <ul class="facts">
+        <li><span>Focus</span> Accounts Payable / P2P</li>
+        <li><span>Systems</span> SAP ECC · SAP VIM</li>
+        <li><span>Education</span> B.Com (CGPA 8.3)</li>
+        <li><span>Location</span> Palakkad, Kerala, India</li>
+        <li><span>Languages</span> English, Malayalam, Hindi, Tamil</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="experience" style="background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <h2 class="title reveal">Experience</h2>
+    <p class="sub reveal">Where I've built my Accounts Payable expertise</p>
+    <div class="timeline">
+
+      <!-- EDIT: confirm exact job title at Continuserve -->
+      <div class="job current reveal">
+        <div class="card">
+          <div class="job-head"><h3>Accounts Payable Executive</h3><span class="date">Oct 2026 – Present</span></div>
+          <div class="company">Continuserve</div>
+          <ul>
+            <li>Handle the full P2P cycle – invoices, vendor payments, reconciliations and reporting.</li>
+            <li>Keep vendor accounts accurate, sort out discrepancies quickly and maintain good supplier relationships.</li>
+            <li>Support month-end and year-end AP closing.</li>
+            <li>Ensure compliance with company policies and accounting standards, and provide documents and reconciliations for audits.</li>
+            <li>Work with Finance, Audit and Compliance teams to improve processes and reduce errors.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job reveal">
+        <div class="card">
+          <div class="job-head"><h3>Process Associate – Accounts Payable</h3><span class="date">Jul 2025 – Sep 2026</span></div>
+          <div class="company">KG – Invicta Services</div>
+          <ul>
+            <li>Processed high-volume XML, PO and Non-PO invoices in SAP VIM for the Poland market, maintaining 99%+ accuracy and meeting SLA and KPI targets.</li>
+            <li>Performed 2-way and 3-way matching and reviewed complex, high-line-item invoices before posting.</li>
+            <li>Ensured VAT and invoice receipt dates complied with Polish tax rules, JPK_V7 and KSeF e-invoicing mandates.</li>
+            <li>Resolved pricing issues and blocked invoices with market stakeholders and procurement teams.</li>
+            <li>Ran quality checks on invoices processed by team members.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job reveal">
+        <div class="card">
+          <div class="job-head"><h3>Operations Assistant</h3><span class="date">Nov 2024 – Jan 2025</span></div>
+          <div class="company">Sitics Logistics</div>
+          <ul>
+            <li>Maintained financial and operational records using Zoho Books.</li>
+            <li>Analysed operational data in Advanced Excel to help senior management make timely decisions.</li>
+            <li>Coordinated communication between departments to keep operations running smoothly.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2 class="title reveal">Skills &amp; Tools</h2>
+    <p class="sub reveal">What I bring to an Accounts Payable team</p>
+    <div class="skills">
+      <div class="card reveal">
+        <h3><span class="ico">📄</span>Accounts Payable</h3>
+        <div class="chips">
+          <span class="chip">P2P Cycle</span><span class="chip">PO &amp; Non-PO Invoices</span><span class="chip">2/3-Way Matching</span>
+          <span class="chip">GR/IR Matching</span><span class="chip">Exception Handling</span><span class="chip">Month-End Close</span>
+          <span class="chip">Vendor Reconciliation</span>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h3><span class="ico">⚙️</span>SAP &amp; Systems</h3>
+        <div class="chips">
+          <span class="chip">SAP ECC</span><span class="chip">SAP VIM</span><span class="chip">MIRO</span><span class="chip">FB60</span>
+          <span class="chip">MR8M</span><span class="chip">FB08</span><span class="chip">F-44</span><span class="chip">FBL1N</span>
+          <span class="chip">VIM Analytics</span><span class="chip">Tally Prime</span><span class="chip">Zoho Books</span>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h3><span class="ico">📊</span>Excel &amp; Compliance</h3>
+        <div class="chips">
+          <span class="chip">Pivot Tables</span><span class="chip">VLOOKUP / XLOOKUP</span><span class="chip">Conditional Formatting</span>
+          <span class="chip">VAT Compliance</span><span class="chip">JPK_V7</span><span class="chip">KSeF E-Invoicing</span>
+          <span class="chip">SLA &amp; KPI</span><span class="chip">Stakeholder Management</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flow reveal">
+      <div class="step"><b>PO</b><span>Purchase Order</span></div>
+      <div class="step"><b>GR</b><span>Goods Receipt</span></div>
+      <div class="step"><b>INV</b><span>Invoice Intake</span></div>
+      <div class="step"><b>✓</b><span>3-Way Match</span></div>
+      <div class="step"><b>PAY</b><span>Posting &amp; Payment</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="education" style="padding-top:20px">
+  <div class="wrap">
+    <h2 class="title reveal">Education &amp; Achievements</h2>
+    <p class="sub reveal"></p>
+    <div class="edu">
+      <div class="card reveal">
+        <div class="yr">2021 – 2024</div>
+        <h3>B.Com – Professional Accounting</h3>
+        <p>Sree Narayana Guru College, Coimbatore · CGPA 8.3</p>
+      </div>
+      <div class="card reveal">
+        <div class="yr">Achievement</div>
+        <h3>250+ invoices a day</h3>
+        <p>Processed PDF and e-invoices at high volume while maintaining accuracy.</p>
+      </div>
+      <div class="card reveal">
+        <div class="yr">Recognition</div>
+        <h3>Client appreciation</h3>
+        <p>Recognised by the client for quick action in time-sensitive situations, keeping service running smoothly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="padding-top:20px">
+  <div class="wrap">
+    <div class="contact reveal">
+      <h2>Let's connect</h2>
+      <p>Open to conversations with Accounts Payable, P2P and finance professionals.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:ahalyaswaminathan484@gmail.com">✉ Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/ahalya-swaminathan/" target="_blank" rel="noopener">in LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="yr"></span> Ahalya Swaminathan · Accounts Payable Executive | SAP P2P Specialist</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); } }), {threshold: .12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
